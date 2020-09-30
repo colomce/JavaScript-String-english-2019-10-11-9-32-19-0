@@ -21,3 +21,5 @@ console.log(sentence);
 // Complete the following procedure to extract the amount of money variable, output: 20.
 var money = '￥20';
 //TODO write your code here...
+var amount = money.slice(1, money.length);  //should amount have 1 or more digits. 
+console.log(amount);
